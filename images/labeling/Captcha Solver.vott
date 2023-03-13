@@ -5,7 +5,7 @@
         "name": "ImagesFolder",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYWM3YTM1OGM1YjQyNDlkNDMzMTFiZDYzMDhmMjg0YzcwMTdkNTk2ODNkMWQzNzc2MjQ5YjMxMTZmMzU3Njg1Nzc0Nzk0Y2VhMjExOTdkOTJhYTkyMTk0ZjQ5YmZlN2QxZDZlYjllMWE5ZTM4OWI1NWYyNjhmMmI1OTM1NzZmZjgzNDYzYmE4MDM3M2Q0MjIyOWI3MDRjZjQzNWFmZGJmNyIsIml2IjoiYWI5ZTY2MTA2ZTZhOWRhZGQxMmJiNGNmM2UyYWVhNGM5Y2Q0MWUxMjQyMTM1MmVkIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMjkwOWY1Y2I5MGIzYWExMTRiYTdhYzc0MzY3N2Y0MTc1Mzk0NTU1ZmNiNzg2ZDQ2ODRmYjM1ZTQ4ZWU1YzJkZWJjNTRjYjRlMjM0ZTczNzcwNDJkMmRlNjUwM2FhMGFmNDQwODBjMmE3MzIyODU2NTYyMDc1MGVmMTJlYzE3Y2FmNDY4MWU0MTlhMTFkNzA2YjdmNzk5MDRkNzg1MzJiNCIsIml2IjoiNTVjZTU0YTc0YmY1NmM3ZTJlYzUyMWI5OWQ1ZjJkOWY2MzJhZTFhYzllMDliYWVmIn0="
         },
         "id": "xLJhhUVbV"
     },
@@ -13,7 +13,7 @@
         "name": "LabelingMap",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiM2ViZjE4ZWYwMzkyOTQ3OTQ3MTE4ZmM2NjUxZDQ0MWEyMTg3NWNiZjVhODhiN2M5OGRkMzNhNWJlMTU1NGRmMWM1NWM4NzU3MTkwZGRkZjU4OWNkOGQ2YjcwNTIwYmIxNzBmMjczY2RmOWNhMjAxOTc1MTMxYTYzYWYzN2UxOTcwZGQzOTA5MjRiNWE1OWM2MDQyYWJhN2RmOTMzMGQ3NiIsIml2IjoiNjQ4ZWMwOGM0ZTk1OTUwODRlNmYwNGI3MmQ5NzA4OTEzNjRmMTg0ODk0MmIzMGFmIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYWIwOTZkMmNjMDRiZTAwYzc4NGRmZWYzNGQ2ZWIxY2FlOTc1NjEyZDNkZjVlMzNkZWMwYWZiYTgxMmRhMDM4MzdlYWYxNjBjM2JmNDk4NzVkZThlZTNmZDYyNzYzMzU4ZjRiNjJjMTU4MmVmYzU5YTRiMmZhMDQ0MmQxMzgxMWMwOWE4ZTY3MDI2YjE1YzZkYWQ2YzhhNDJmYWIwMTlkOCIsIml2IjoiNDkzZDEwYTdjZjFjYjAwN2FhY2Y4NjNhNzBhN2YyZTc1Zjg0YjM0ODllMGFlZmE3In0="
         },
         "id": "8u2Is4XhP"
     },
@@ -183,11 +183,11 @@
     "exportFormat": {
         "providerType": "vottJson",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDY2ODQ3MzU1ZmIwNzViZTRmYzRjZmNkN2M1MzQ0M2RiY2EzZTlmZmM4ZjkyNDgzODg4N2JkZWUyZmQxM2ZmNDRkYTQzMjljZWVhNmQzNTRlZDFhNTkwODY5NTMyYzAwIiwiaXYiOiJjNGJiNWJkMDQ3ZDZmZDA5YWUxMDk1ODhjMmY3NGFiMDZmMGM2OTgyOTZjYzM0YWQifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNzU1NDNjMDlmOTQzNWQyMTI5ZjlhODUzOTY5Y2NkZmRjODE0YjA1MmQxYWQzYmI1ZjI5YTdmNGQ1ZjczZWQwYzRhZDM0OGQ2YTA4ZTc5ZjQwOTQ2ZGQwMTM4MjA1NjY5IiwiaXYiOiI2ZDUwMjA3MTMyOWMwZWE5NjhlNTU0Nzg5NTI1YjZlM2FkMzQxNzZkNWZhOWFmNGQifQ=="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "b72048a565bca226c18e8427451f3386",
+    "lastVisitedAssetId": "262eafe083d3011fc8ff621e5ac0090c",
     "assets": {
         "8018e310a20cb719be622a888754623b": {
             "format": "jpg",
@@ -930,7 +930,189 @@
                 "width": 800,
                 "height": 200
             },
-            "state": 1,
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b1c89a872fe4f370703f47ea4e3793fd": {
+            "format": "jpg",
+            "id": "b1c89a872fe4f370703f47ea4e3793fd",
+            "name": "5e95a3f2d353d.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a3f2d353d.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "10b4c7da6382ae82b3597d95b3f41ce6": {
+            "format": "jpg",
+            "id": "10b4c7da6382ae82b3597d95b3f41ce6",
+            "name": "5e95a422582fb.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a422582fb.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "e9d6f9099eef0091d2d8998ab99fd5c5": {
+            "format": "jpg",
+            "id": "e9d6f9099eef0091d2d8998ab99fd5c5",
+            "name": "5e95a4679172c.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a4679172c.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "3fc6c2c99faf25d569211463a6a8972d": {
+            "format": "jpg",
+            "id": "3fc6c2c99faf25d569211463a6a8972d",
+            "name": "5e95a4855d44a.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a4855d44a.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "614d55e406dc6eeab823842b83f524c5": {
+            "format": "jpg",
+            "id": "614d55e406dc6eeab823842b83f524c5",
+            "name": "5e95a4a044e6c.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a4a044e6c.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "16054eb205f790d680912ec3587f72fe": {
+            "format": "jpg",
+            "id": "16054eb205f790d680912ec3587f72fe",
+            "name": "5e95a7cbd9b4e.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a7cbd9b4e.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "25ba64901ca46fb491fda5e5dcfba312": {
+            "format": "jpg",
+            "id": "25ba64901ca46fb491fda5e5dcfba312",
+            "name": "5e95a809c4431.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a809c4431.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "95df757dc9b3b4b55c626d821f874470": {
+            "format": "jpg",
+            "id": "95df757dc9b3b4b55c626d821f874470",
+            "name": "5e95a810ade94.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a810ade94.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "bef12e44aaf09ea2618bee0586d94d46": {
+            "format": "jpg",
+            "id": "bef12e44aaf09ea2618bee0586d94d46",
+            "name": "5e95a827dabc0.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a827dabc0.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "6183a879b26c41b7d0305e9d0bb52364": {
+            "format": "jpg",
+            "id": "6183a879b26c41b7d0305e9d0bb52364",
+            "name": "5e95a835809b8.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a835809b8.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "ff8164aea4dfe0df4c3782d03ed1dcba": {
+            "format": "jpg",
+            "id": "ff8164aea4dfe0df4c3782d03ed1dcba",
+            "name": "5e95a8374bd5b.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a8374bd5b.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "935a2751754e07c332db6288a77f777f": {
+            "format": "jpg",
+            "id": "935a2751754e07c332db6288a77f777f",
+            "name": "5e95a83d307aa.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a83d307aa.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "e95cff0bac0121746f52539b9f40b017": {
+            "format": "jpg",
+            "id": "e95cff0bac0121746f52539b9f40b017",
+            "name": "5e95a8500dfd4.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a8500dfd4.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "262eafe083d3011fc8ff621e5ac0090c": {
+            "format": "jpg",
+            "id": "262eafe083d3011fc8ff621e5ac0090c",
+            "name": "5e95a8560163a.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a8560163a.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
             "type": 1,
             "predicted": true
         }
