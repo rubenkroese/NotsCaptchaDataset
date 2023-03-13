@@ -1,0 +1,739 @@
+{
+    "name": "Captcha Solver",
+    "securityToken": "Captcha Solver Token",
+    "sourceConnection": {
+        "name": "ImagesFolder",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDdhN2Q4Y2M2Y2FhN2Q2NDc0YmY3OTVhM2Y3NDg5Njg5MzBkNzVjYzFmMmU2YjliNGRjMDIyNzdmY2JjOGYyZTY1NTE0OGY5ZWUzZjk0YWFlNWM1MjYyNzgyYTIyYzJkMzg0ZDBmYzk3N2E0MjM4YWZkMWViMWJmNzE4MTk5ZmE3NDNmOTg0YmI4MzUwM2VhMDk5MDIxY2NhZjZmZjlhMiIsIml2IjoiNGFjZWZlNzAzMWM2MzY5Y2E0NDkzZWM0YWIyMDdmYzdiNDdjOTM5N2FjN2Y1YzI3In0="
+        },
+        "id": "xLJhhUVbV"
+    },
+    "targetConnection": {
+        "name": "LabelingMap",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiN2Y2YmNjNWZlYzExNWE0MzQ5NjdmY2VkOWNkYWNiYzM5OTFhNGIwM2RlMDk3ZWQyNTQyYWI3MzVkZDUyZjAyZWQ5MjAyMjY1NDUwNjdmMjdiMzBmYzY3YjA1ZWIxYmZmM2Q2NzhiYTc0MzUxNTBjZGM0M2IwNGRlOTllOWRhYTQ2ZjlhNDAyOTY4Njc2N2Q5NGJlNTFmYzI4OWQyMjM0NiIsIml2IjoiOTc0MGUzYmI2NDZkNWE5NzM4MjFhNmY4YzYxM2E2N2RhOGYwOTk0NzNkNDAzNTg0In0="
+        },
+        "id": "8u2Is4XhP"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "A",
+            "color": "#5db300"
+        },
+        {
+            "name": "B",
+            "color": "#e81123"
+        },
+        {
+            "name": "C",
+            "color": "#6917aa"
+        },
+        {
+            "name": "D",
+            "color": "#015cda"
+        },
+        {
+            "name": "E",
+            "color": "#4894fe"
+        },
+        {
+            "name": "F",
+            "color": "#6b849c"
+        },
+        {
+            "name": "G",
+            "color": "#70c400"
+        },
+        {
+            "name": "H",
+            "color": "#f7929a"
+        },
+        {
+            "name": "I",
+            "color": "#257ffe"
+        },
+        {
+            "name": "J",
+            "color": "#ddabe9"
+        },
+        {
+            "name": "K",
+            "color": "#ff8c00"
+        },
+        {
+            "name": "L",
+            "color": "#386300"
+        },
+        {
+            "name": "M",
+            "color": "#b40e1b"
+        },
+        {
+            "name": "N",
+            "color": "#68217a"
+        },
+        {
+            "name": "O",
+            "color": "#33cccc"
+        },
+        {
+            "name": "P",
+            "color": "#016afe"
+        },
+        {
+            "name": "Q",
+            "color": "#595959"
+        },
+        {
+            "name": "R",
+            "color": "#808080"
+        },
+        {
+            "name": "S",
+            "color": "#990066"
+        },
+        {
+            "name": "T",
+            "color": "#00bcf2"
+        },
+        {
+            "name": "U",
+            "color": "#5db300"
+        },
+        {
+            "name": "V",
+            "color": "#e81123"
+        },
+        {
+            "name": "W",
+            "color": "#6917aa"
+        },
+        {
+            "name": "X",
+            "color": "#015cda"
+        },
+        {
+            "name": "Y",
+            "color": "#4894fe"
+        },
+        {
+            "name": "Z",
+            "color": "#6b849c"
+        },
+        {
+            "name": "0",
+            "color": "#70c400"
+        },
+        {
+            "name": "1",
+            "color": "#f7929a"
+        },
+        {
+            "name": "2",
+            "color": "#257ffe"
+        },
+        {
+            "name": "3",
+            "color": "#ddabe9"
+        },
+        {
+            "name": "4",
+            "color": "#ff8c00"
+        },
+        {
+            "name": "5",
+            "color": "#386300"
+        },
+        {
+            "name": "6",
+            "color": "#b40e1b"
+        },
+        {
+            "name": "7",
+            "color": "#68217a"
+        },
+        {
+            "name": "8",
+            "color": "#33cccc"
+        },
+        {
+            "name": "9",
+            "color": "#016afe"
+        },
+        {
+            "name": "laptop",
+            "color": "#595959"
+        }
+    ],
+    "id": "DMaxR2Qzr",
+    "activeLearningSettings": {
+        "modelPathType": "coco",
+        "autoDetect": true,
+        "predictTag": true
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMDQxNjExOGRiMjc3ZWFmODRhZDZjNjAzOWNmZmVjOWM5NmM1YjBkZmFhOGEwZDBmYTYxNzc2Y2ZlYTI3Y2M4NmEyNDMwMjBlNTBjZjNlYjMwOWVhNzk1YzljMGZhYjIzIiwiaXYiOiI0NTYwZTc4NDQ3NzkwZGUzNWZhZTIxYzIzODc2MGZiNDM3ZGZkYjAyNGQwZDJhOTgifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "b326b7fa72bc91fdfe64b0405d619383",
+    "assets": {
+        "8018e310a20cb719be622a888754623b": {
+            "format": "jpg",
+            "id": "8018e310a20cb719be622a888754623b",
+            "name": "5e95a002484bb.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a002484bb.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "500b76f2559468afa5fc53a28e48c5d9": {
+            "format": "jpg",
+            "id": "500b76f2559468afa5fc53a28e48c5d9",
+            "name": "aimtul.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/aimtul.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "124e2c0b5d643f61f5339a3aeb4fc547": {
+            "format": "jpg",
+            "id": "124e2c0b5d643f61f5339a3aeb4fc547",
+            "name": "agreed.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/agreed.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fadb718abf239a415b47e6efd8576e75": {
+            "format": "jpg",
+            "id": "fadb718abf239a415b47e6efd8576e75",
+            "name": "albite.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/albite.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5c7d89a4df5e490bb6bcc2ff0adc2f81": {
+            "format": "jpg",
+            "id": "5c7d89a4df5e490bb6bcc2ff0adc2f81",
+            "name": "5e95a007196a9.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a007196a9.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4f9068f8c523caabfc5b1c527d77dbb2": {
+            "format": "jpg",
+            "id": "4f9068f8c523caabfc5b1c527d77dbb2",
+            "name": "5e95a03241900.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a03241900.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2c1b4e45e2bb463778dfe4660a7d412a": {
+            "format": "jpg",
+            "id": "2c1b4e45e2bb463778dfe4660a7d412a",
+            "name": "5e95a0434b272.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a0434b272.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "78d8a00796dd00f4e2e8589c5e7f5393": {
+            "format": "jpg",
+            "id": "78d8a00796dd00f4e2e8589c5e7f5393",
+            "name": "5e95a0688d4ce.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a0688d4ce.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d27bbcdabebedba52202e82a203e1d39": {
+            "format": "jpg",
+            "id": "d27bbcdabebedba52202e82a203e1d39",
+            "name": "5e95a12743efc.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a12743efc.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0a3448f4b95f43f9a3d90934dba919ce": {
+            "format": "jpg",
+            "id": "0a3448f4b95f43f9a3d90934dba919ce",
+            "name": "5e95a193d6eba.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a193d6eba.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3dcb50fc77eb87e9bfd9fdce2058f09f": {
+            "format": "jpg",
+            "id": "3dcb50fc77eb87e9bfd9fdce2058f09f",
+            "name": "5e95a198a90fc.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a198a90fc.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "426f8243d132274fff96c7fbaad0336d": {
+            "format": "jpg",
+            "id": "426f8243d132274fff96c7fbaad0336d",
+            "name": "5e95a24172c34.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a24172c34.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8ea227ae4ee2326756b42886000ac1db": {
+            "format": "jpg",
+            "id": "8ea227ae4ee2326756b42886000ac1db",
+            "name": "5e95a24576c5e.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a24576c5e.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bf810202264fc7f808244498c8fefc0c": {
+            "format": "jpg",
+            "id": "bf810202264fc7f808244498c8fefc0c",
+            "name": "5e95a24aa04cc.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a24aa04cc.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bbf5f3916eb8d11f226af0bbb06db38a": {
+            "format": "jpg",
+            "id": "bbf5f3916eb8d11f226af0bbb06db38a",
+            "name": "5e95a27249177.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a27249177.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9f714e92946bee5b23a8b4a67530e853": {
+            "format": "jpg",
+            "id": "9f714e92946bee5b23a8b4a67530e853",
+            "name": "5e95a2764db4a.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a2764db4a.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d7d73256cb22809c88c7766807198ba7": {
+            "format": "jpg",
+            "id": "d7d73256cb22809c88c7766807198ba7",
+            "name": "5e95a276daa72.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a276daa72.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "917a318baf2fe8f0f9c67d9013e4136f": {
+            "format": "jpg",
+            "id": "917a318baf2fe8f0f9c67d9013e4136f",
+            "name": "5e95a28943313.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a28943313.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f6118950d779441004e58e795300d996": {
+            "format": "jpg",
+            "id": "f6118950d779441004e58e795300d996",
+            "name": "5e95a31343bf9.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a31343bf9.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "de3e789d34f6e95552b09de50c8347aa": {
+            "format": "jpg",
+            "id": "de3e789d34f6e95552b09de50c8347aa",
+            "name": "5e95a32041751.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a32041751.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2ad7d1f04f983b8d67772fb9af88dcbb": {
+            "format": "jpg",
+            "id": "2ad7d1f04f983b8d67772fb9af88dcbb",
+            "name": "5e95a35733357.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a35733357.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9eca400f25d204363477727f7ddb0d94": {
+            "format": "jpg",
+            "id": "9eca400f25d204363477727f7ddb0d94",
+            "name": "5e95a3847b589.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a3847b589.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6ddec50a76d1fd4e6cf82cc10cad166a": {
+            "format": "jpg",
+            "id": "6ddec50a76d1fd4e6cf82cc10cad166a",
+            "name": "5e95a3d2e0708.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a3d2e0708.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "78ac08013b3dc45148aec88de3c95859": {
+            "format": "jpg",
+            "id": "78ac08013b3dc45148aec88de3c95859",
+            "name": "5e95a3f2d353d.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a3f2d353d.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "869756b7530228736fd3fe0e3122d069": {
+            "format": "jpg",
+            "id": "869756b7530228736fd3fe0e3122d069",
+            "name": "5e95a422582fb.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a422582fb.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "8d7a41776a27677705699a9fcfab9cf0": {
+            "format": "jpg",
+            "id": "8d7a41776a27677705699a9fcfab9cf0",
+            "name": "5e95a4679172c.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a4679172c.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "3fa897d3f840c0dad9f27e6ed4b67043": {
+            "format": "jpg",
+            "id": "3fa897d3f840c0dad9f27e6ed4b67043",
+            "name": "5e95a4855d44a.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a4855d44a.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "bcc088b69b3e87d3df4dbc91c00c3fa2": {
+            "format": "jpg",
+            "id": "bcc088b69b3e87d3df4dbc91c00c3fa2",
+            "name": "5e95a4a044e6c.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a4a044e6c.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "3ea602e86f5df83eb7e483e2886131c3": {
+            "format": "jpg",
+            "id": "3ea602e86f5df83eb7e483e2886131c3",
+            "name": "5e95a7cbd9b4e.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a7cbd9b4e.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "939505e5c9dc2045bc08b374db254812": {
+            "format": "jpg",
+            "id": "939505e5c9dc2045bc08b374db254812",
+            "name": "5e95a809c4431.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a809c4431.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "9319d58f6ae2e8654b855de5ad7225d2": {
+            "format": "jpg",
+            "id": "9319d58f6ae2e8654b855de5ad7225d2",
+            "name": "5e95a810ade94.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a810ade94.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "2fe21fd5ec2b5799ca28aad97c4e2258": {
+            "format": "jpg",
+            "id": "2fe21fd5ec2b5799ca28aad97c4e2258",
+            "name": "5e95a827dabc0.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a827dabc0.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "1158b0d460faaf9abc0c5f5fecda0c0c": {
+            "format": "jpg",
+            "id": "1158b0d460faaf9abc0c5f5fecda0c0c",
+            "name": "5e95a835809b8.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a835809b8.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "f7c1a29f0eda26bb1d0bc9891a2bc5b9": {
+            "format": "jpg",
+            "id": "f7c1a29f0eda26bb1d0bc9891a2bc5b9",
+            "name": "5e95a8374bd5b.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a8374bd5b.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "a800f443125e07afdc940ac80a80678f": {
+            "format": "jpg",
+            "id": "a800f443125e07afdc940ac80a80678f",
+            "name": "5e95a83d307aa.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a83d307aa.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "ff439300bb2b74c5f647b93c9598e0a7": {
+            "format": "jpg",
+            "id": "ff439300bb2b74c5f647b93c9598e0a7",
+            "name": "5e95a8500dfd4.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a8500dfd4.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "dc920eccda9309b15d6511c698938fe5": {
+            "format": "jpg",
+            "id": "dc920eccda9309b15d6511c698938fe5",
+            "name": "5e95a8560163a.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a8560163a.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "7c61f2c7273163ca95881a5fa6321177": {
+            "format": "jpg",
+            "id": "7c61f2c7273163ca95881a5fa6321177",
+            "name": "5e95a87e9c5f6.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a87e9c5f6.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "3d823ea13a9ce6c1bb516bcd428f301c": {
+            "format": "jpg",
+            "id": "3d823ea13a9ce6c1bb516bcd428f301c",
+            "name": "5e95a893c31eb.jpg",
+            "path": "file:C:/Users/Kevin/Downloads/images/images/5e95a893c31eb.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 1,
+            "type": 1,
+            "predicted": true
+        },
+        "b712c83969edbcf14aca69e066952229": {
+            "format": "jpg",
+            "id": "b712c83969edbcf14aca69e066952229",
+            "name": "5e95a002484bb.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a002484bb.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "5fd7d07a456da6b5d38759d694b6ed47": {
+            "format": "jpg",
+            "id": "5fd7d07a456da6b5d38759d694b6ed47",
+            "name": "5e95a007196a9.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a007196a9.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "84913d9f44c14078c9adc8708e30687e": {
+            "format": "jpg",
+            "id": "84913d9f44c14078c9adc8708e30687e",
+            "name": "5e95a03241900.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a03241900.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "ba60a2376e6dc4990f22cbec5296b3b6": {
+            "format": "jpg",
+            "id": "ba60a2376e6dc4990f22cbec5296b3b6",
+            "name": "5e95a0434b272.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a0434b272.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b326b7fa72bc91fdfe64b0405d619383": {
+            "format": "jpg",
+            "id": "b326b7fa72bc91fdfe64b0405d619383",
+            "name": "5e95a0688d4ce.jpg",
+            "path": "file:C:/repositories/NotsCaptchaDataset/images/images/5e95a0688d4ce.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 1,
+            "type": 1,
+            "predicted": true
+        }
+    }
+}
