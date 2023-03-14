@@ -5,7 +5,7 @@
         "name": "ImagesMapDesktop",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTQxZjI2NDQ4ZTk3MzJlZWFiMGU1NWFhMGQyYzAxYjgzZWMwZDIyYzgwYWMyM2U1OTYwZGRmZmNkNDdmYzMxOTc1ZmU5NDdhN2NkNzllMTI4MTNkNzIxMjk3YTUyYzUzZGViY2FmZDZhYjMyYTUxY2Y2ODRhODk1MThhOGNlNGYwNzExMzVlNzFjNzk2YzUyM2Q1ZGJjZDYxZjZlMjhjZSIsIml2IjoiOWZkMWYzNzRjYWFkYWU0YjU0MTE5ZDUwYjUyZjljZThiNzkwZmZiZWJmYmE1Mjg1In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNzU3YzBhYWQ4ZDBmZGNmNTgzMGVmM2IyNjNjODc2MjBhYjgzZjY2NmM1M2U3MDc5NTQ2MjNmMTEzOGJjYTAyMGRiYWYxNmEwZmM4NjBjOTE5ZjFlODI4MjA1ZDBlYTZiYmQ1Y2M4NWQyNjBlMDcyMGQ4ODJjM2MzZWEyODVkMmI2Njc1NjI1OWZjZjUwMjVjMTVjNThjNmFlNjE3Y2UzNSIsIml2IjoiNzAwZmJlNDcyYjYzN2MzOWJiMTRlNzE0M2JlYTYxZTc5ZDUzYmE3ODRiM2Y1OGNjIn0="
         },
         "id": "vz3rkB3l3"
     },
@@ -13,7 +13,7 @@
         "name": "LabelingMapDesktop",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNzY4OWU5YmViZDdkOGVmZTM5ODUwZWEzNTQyNGRlYTI4ZWUwY2Y2OTA4NjM2NzJkNTZmMzlhNjQwZjEzNmU3ZmM3ZTEwNDgzNmJmYTc2YjkzMjIzYjI0NWJlMjk1NzFiM2I5ODZmOTFmOTllOTRhZGU2ZWVmNzAwMWE0ZDlkYzU4ODM1YTllMTJkMTQyZDc3YWIyYmQzN2EwOTYxYmY4MSIsIml2IjoiYTkxMDdhMmRhYzYxNzE5NTRiNmJiMWNiOTgxYTQ5YWNjN2RmNTcxN2M0NGE5ZTM2In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiM2RjOWEyYzM0ODEyZGJhOGU0NzFjNWViMDQyMzE3OGVkY2QwZDNhYTA4ZDM0ZjliMzI3NGRlY2E0YzI3NWQ1MGI4MGRmOTVhMmI5Y2RhNDA4ZWIwNjFiYjA3NTk1NmRmOWNiMDhkNmQzM2I5NTA2ZDQzMjdlOTNhYzM4NGVlMWM1YTRkODMxYmM0MWZlNjBlZWQ4Njc5ZGQ5NGQyZTZhNCIsIml2IjoiNWUwY2IwNjczNzY1MTE3OTM0N2FlYjIxYWM3NWVmMjViZWViNzc3NDMxYzFmZGQ1In0="
         },
         "id": "EsQeusxHe"
     },
@@ -183,11 +183,11 @@
     "exportFormat": {
         "providerType": "vottJson",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTM3NDAwZjI0YjAwNDk0OGUzNmM1OTUwMzRhNDY2NGM0NmRmMDM2MzdmMzlkNDY2OTA3NWVhNGQxZjIzNTg4ODA0OGIzMzY5ZjZlNjQzODIzODgwNzhhNDQ2NTI3Y2Y3IiwiaXYiOiI5M2M4ODg5NTQzZGY5OGFiOTQwMzY0M2Q5ZDM1OGNlMjQ3YTE5N2Q5NDI2OTQ2OWUifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjQyZmE5NTdhZjkxNGZkNTlkNzRiODU2ZGJhNzZkN2M5ZDM2YWQ2YWUyNWYwZTRlNWY2YThkMWNlNmIwOGFmZDkyNWMzYWE3MzlmYThkMWUyNjQxZjExZjRjN2Y4NTY4IiwiaXYiOiI1ZDhlMzZiYjk4NTFlOTBkY2I5NTNlZGZiMDA1ODJlNjcwNTk1M2FjNDgyYWNjYzkifQ=="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "a0981bc10d4ede444f08c8b9b3a66568",
+    "lastVisitedAssetId": "e70b1e0e8fba1c31911c69cb9ae40fb7",
     "assets": {
         "8018e310a20cb719be622a888754623b": {
             "format": "jpg",
@@ -1489,7 +1489,1294 @@
                 "width": 800,
                 "height": 200
             },
-            "state": 1,
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "d569c9f0b7aaa7c44ae25360e559fac1": {
+            "format": "jpg",
+            "id": "d569c9f0b7aaa7c44ae25360e559fac1",
+            "name": "5e95a835809b8.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a835809b8.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "d7c964a076166f4fbd029c5e32239cbc": {
+            "format": "jpg",
+            "id": "d7c964a076166f4fbd029c5e32239cbc",
+            "name": "5e95a8374bd5b.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a8374bd5b.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "c328eec9161e195c4de4729acc6e0eab": {
+            "format": "jpg",
+            "id": "c328eec9161e195c4de4729acc6e0eab",
+            "name": "5e95a83d307aa.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a83d307aa.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "ca10dc5ab083c8800bb50f10bd0cc09a": {
+            "format": "jpg",
+            "id": "ca10dc5ab083c8800bb50f10bd0cc09a",
+            "name": "5e95a8500dfd4.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a8500dfd4.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "f50e90931eb12a4f0ea5f4ff77ad3476": {
+            "format": "jpg",
+            "id": "f50e90931eb12a4f0ea5f4ff77ad3476",
+            "name": "5e95a8560163a.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a8560163a.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b9b8b89c05017f7e4790a81f1747c552": {
+            "format": "jpg",
+            "id": "b9b8b89c05017f7e4790a81f1747c552",
+            "name": "5e95a87e9c5f6.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a87e9c5f6.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "39929ce8784e1e7c4ec2c6d34dc21358": {
+            "format": "jpg",
+            "id": "39929ce8784e1e7c4ec2c6d34dc21358",
+            "name": "5e95a893c31eb.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a893c31eb.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "cfeb893236b6fad0f7c7d5ef98db7a82": {
+            "format": "jpg",
+            "id": "cfeb893236b6fad0f7c7d5ef98db7a82",
+            "name": "5e95a899a6d24.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a899a6d24.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "82b857a60632946f0b2d0f2e0e031336": {
+            "format": "jpg",
+            "id": "82b857a60632946f0b2d0f2e0e031336",
+            "name": "5e95a89a478d4.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a89a478d4.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "8b126aa573bf9e1dc55c9ca05e324055": {
+            "format": "jpg",
+            "id": "8b126aa573bf9e1dc55c9ca05e324055",
+            "name": "5e95a9011d2c4.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a9011d2c4.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "45c6b5137faac04cbe3c453a93b0fa16": {
+            "format": "jpg",
+            "id": "45c6b5137faac04cbe3c453a93b0fa16",
+            "name": "5e95a902d4c6b.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a902d4c6b.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "40da4cbda7bed5d787d4aed36c183d45": {
+            "format": "jpg",
+            "id": "40da4cbda7bed5d787d4aed36c183d45",
+            "name": "5e95a92344a6b.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a92344a6b.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "7b1c513f27f356bcfd8ea8c34ac1469c": {
+            "format": "jpg",
+            "id": "7b1c513f27f356bcfd8ea8c34ac1469c",
+            "name": "5e95a92471766.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a92471766.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "8f65c8cc3c87d08b3f3faeed08a7d533": {
+            "format": "jpg",
+            "id": "8f65c8cc3c87d08b3f3faeed08a7d533",
+            "name": "5e95a93382be8.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a93382be8.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "740eea2766d1028656cc94989b04dddd": {
+            "format": "jpg",
+            "id": "740eea2766d1028656cc94989b04dddd",
+            "name": "5e95a97b03cf1.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95a97b03cf1.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "2c1d60355f204e6e1b18c514ef0b2438": {
+            "format": "jpg",
+            "id": "2c1d60355f204e6e1b18c514ef0b2438",
+            "name": "5e95aa03361ce.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95aa03361ce.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "accd4478b2a97059ebed3e711dff9df9": {
+            "format": "jpg",
+            "id": "accd4478b2a97059ebed3e711dff9df9",
+            "name": "5e95aa0e600eb.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95aa0e600eb.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "99d01b4a0fcfa3fc36a34f20371ecf9f": {
+            "format": "jpg",
+            "id": "99d01b4a0fcfa3fc36a34f20371ecf9f",
+            "name": "5e95aa2cb58c9.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95aa2cb58c9.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "8ae8449e9ba3b01c91449922b66417b3": {
+            "format": "jpg",
+            "id": "8ae8449e9ba3b01c91449922b66417b3",
+            "name": "5e95aa4c2530e.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95aa4c2530e.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "22e9fbbb1a8e6c7b1a7eafbdf48d4de5": {
+            "format": "jpg",
+            "id": "22e9fbbb1a8e6c7b1a7eafbdf48d4de5",
+            "name": "5e95aa4fa968f.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95aa4fa968f.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "c46c436795d71803ef5878dffe1fb4d8": {
+            "format": "jpg",
+            "id": "c46c436795d71803ef5878dffe1fb4d8",
+            "name": "5e95aa724dedc.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95aa724dedc.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "21b9f3a0bef3a7407f0233edb32319dd": {
+            "format": "jpg",
+            "id": "21b9f3a0bef3a7407f0233edb32319dd",
+            "name": "5e95aa73766f6.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95aa73766f6.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "df62e284d752c9e0fa16fd9b19a0b21e": {
+            "format": "jpg",
+            "id": "df62e284d752c9e0fa16fd9b19a0b21e",
+            "name": "5e95aa7f2bda1.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95aa7f2bda1.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "89ad65e47df60ca2b1619740eb47e6ed": {
+            "format": "jpg",
+            "id": "89ad65e47df60ca2b1619740eb47e6ed",
+            "name": "5e95aa8b6b183.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95aa8b6b183.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "e6274ac8717eea909734c98a997735c4": {
+            "format": "jpg",
+            "id": "e6274ac8717eea909734c98a997735c4",
+            "name": "5e95aa97370b2.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95aa97370b2.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "6d6b49514360025f7efdbed0d69f16f8": {
+            "format": "jpg",
+            "id": "6d6b49514360025f7efdbed0d69f16f8",
+            "name": "5e95aaa44d71c.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95aaa44d71c.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "ecfe0721119ce8ff4452f2a2bf8b5150": {
+            "format": "jpg",
+            "id": "ecfe0721119ce8ff4452f2a2bf8b5150",
+            "name": "5e95aab86bdc5.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95aab86bdc5.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "00c17d0576a3780580c2491084600496": {
+            "format": "jpg",
+            "id": "00c17d0576a3780580c2491084600496",
+            "name": "5e95aad7c5834.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95aad7c5834.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "197b0b7fe083112ca59ea83b8e0da231": {
+            "format": "jpg",
+            "id": "197b0b7fe083112ca59ea83b8e0da231",
+            "name": "5e95aadd9ec19.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95aadd9ec19.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b5d08ad559d4b07cb06c7caf275e4c04": {
+            "format": "jpg",
+            "id": "b5d08ad559d4b07cb06c7caf275e4c04",
+            "name": "5e95ab016e735.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ab016e735.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "76a341ff5ce5d17c3a203a85606a7b21": {
+            "format": "jpg",
+            "id": "76a341ff5ce5d17c3a203a85606a7b21",
+            "name": "5e95ab169c2d6.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ab169c2d6.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "059ea9f63496d07bdeee376a605ed159": {
+            "format": "jpg",
+            "id": "059ea9f63496d07bdeee376a605ed159",
+            "name": "5e95ab1f76553.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ab1f76553.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "1de6a405c36ea337d7586f476ed418c3": {
+            "format": "jpg",
+            "id": "1de6a405c36ea337d7586f476ed418c3",
+            "name": "5e95ab41a3b22.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ab41a3b22.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "3b41754fc3e02341aafc2cfe7efe1d22": {
+            "format": "jpg",
+            "id": "3b41754fc3e02341aafc2cfe7efe1d22",
+            "name": "5e95ab4f20ff1.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ab4f20ff1.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "3ff95ad44ffb931edc1d9d18b97e36ba": {
+            "format": "jpg",
+            "id": "3ff95ad44ffb931edc1d9d18b97e36ba",
+            "name": "5e95ab5593da8.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ab5593da8.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "8d3732a8ad16d8ded10e43fb7e407d2a": {
+            "format": "jpg",
+            "id": "8d3732a8ad16d8ded10e43fb7e407d2a",
+            "name": "5e95ab61cec44.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ab61cec44.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "9101381d39bc0bee94091556c95b9bc8": {
+            "format": "jpg",
+            "id": "9101381d39bc0bee94091556c95b9bc8",
+            "name": "5e95ab9d426f6.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ab9d426f6.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "87b8821134874f07f80c7664d679853a": {
+            "format": "jpg",
+            "id": "87b8821134874f07f80c7664d679853a",
+            "name": "5e95abcde2944.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95abcde2944.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "f5f7f73db25d1a237a67038ffd4d8583": {
+            "format": "jpg",
+            "id": "f5f7f73db25d1a237a67038ffd4d8583",
+            "name": "5e95abd52bb96.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95abd52bb96.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "6376cbe100d5ec9003c0824a51e9dee5": {
+            "format": "jpg",
+            "id": "6376cbe100d5ec9003c0824a51e9dee5",
+            "name": "5e95abd65a44c.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95abd65a44c.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "0054bda7e379a8769eeee10e348dbc0a": {
+            "format": "jpg",
+            "id": "0054bda7e379a8769eeee10e348dbc0a",
+            "name": "5e95abdf3227d.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95abdf3227d.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "0902cf884b12097a4fafa223e6562958": {
+            "format": "jpg",
+            "id": "0902cf884b12097a4fafa223e6562958",
+            "name": "5e95abef222cf.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95abef222cf.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "f8ef9ff21c5cc7c49fe617e892593d4c": {
+            "format": "jpg",
+            "id": "f8ef9ff21c5cc7c49fe617e892593d4c",
+            "name": "5e95abf16cb91.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95abf16cb91.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "325803304eb16893a21a72755a6031b7": {
+            "format": "jpg",
+            "id": "325803304eb16893a21a72755a6031b7",
+            "name": "5e95abf2047dc.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95abf2047dc.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "c6f1b6ce94ec7fd774428373c77d8a96": {
+            "format": "jpg",
+            "id": "c6f1b6ce94ec7fd774428373c77d8a96",
+            "name": "5e95ac01c8fba.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ac01c8fba.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "cbe0c5d2c5f4820133fd08d31b32284a": {
+            "format": "jpg",
+            "id": "cbe0c5d2c5f4820133fd08d31b32284a",
+            "name": "5e95ac0394429.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ac0394429.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "2357a3b6afff3f3e45699d741b49b31d": {
+            "format": "jpg",
+            "id": "2357a3b6afff3f3e45699d741b49b31d",
+            "name": "5e95ac127ce3c.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ac127ce3c.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "9a40477d64ba163bdab0202cb5a5896b": {
+            "format": "jpg",
+            "id": "9a40477d64ba163bdab0202cb5a5896b",
+            "name": "5e95ac4135fe0.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ac4135fe0.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "98d7ed0ab751fed17f52425d487a8e3b": {
+            "format": "jpg",
+            "id": "98d7ed0ab751fed17f52425d487a8e3b",
+            "name": "5e95ac441eb11.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ac441eb11.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "a4936369674e37b29e0a9ed1e9d308b1": {
+            "format": "jpg",
+            "id": "a4936369674e37b29e0a9ed1e9d308b1",
+            "name": "5e95ac454ba38.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ac454ba38.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "6105fa084c92b9c3dbf85686e7d302e6": {
+            "format": "jpg",
+            "id": "6105fa084c92b9c3dbf85686e7d302e6",
+            "name": "5e95ac5ab67c1.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ac5ab67c1.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "819daf4329945cf25cf5e8e87bc3b44a": {
+            "format": "jpg",
+            "id": "819daf4329945cf25cf5e8e87bc3b44a",
+            "name": "5e95ac6149047.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ac6149047.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "c84b9035002c397e1bb2639abced394c": {
+            "format": "jpg",
+            "id": "c84b9035002c397e1bb2639abced394c",
+            "name": "5e95ac626de84.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ac626de84.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "2ee0355c2d672b74495187048f4f6240": {
+            "format": "jpg",
+            "id": "2ee0355c2d672b74495187048f4f6240",
+            "name": "5e95ac8313fba.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ac8313fba.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "089491e8a77f8f7806ec695bae1e4b98": {
+            "format": "jpg",
+            "id": "089491e8a77f8f7806ec695bae1e4b98",
+            "name": "5e95ac9f6866b.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ac9f6866b.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "9128a540bf23f1d2c9952829ab18779b": {
+            "format": "jpg",
+            "id": "9128a540bf23f1d2c9952829ab18779b",
+            "name": "5e95acb007b4d.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95acb007b4d.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "4a0997024bcfeda16440dc4516b93746": {
+            "format": "jpg",
+            "id": "4a0997024bcfeda16440dc4516b93746",
+            "name": "5e95accadd14c.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95accadd14c.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "3b465da3afa8de32ee8cbeaac610da3c": {
+            "format": "jpg",
+            "id": "3b465da3afa8de32ee8cbeaac610da3c",
+            "name": "5e95acd5a4988.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95acd5a4988.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "0a0a54e3a3cfeec69c86d1f16edcc4bb": {
+            "format": "jpg",
+            "id": "0a0a54e3a3cfeec69c86d1f16edcc4bb",
+            "name": "5e95acd7745ce.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95acd7745ce.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "4fdb070773a36fa465cdd8474f4b5efa": {
+            "format": "jpg",
+            "id": "4fdb070773a36fa465cdd8474f4b5efa",
+            "name": "5e95acf185bf0.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95acf185bf0.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "6763ed445faa5285550eda14c8c59bdd": {
+            "format": "jpg",
+            "id": "6763ed445faa5285550eda14c8c59bdd",
+            "name": "5e95ad02b643f.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ad02b643f.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b9c2241aea20acb9dbcbeacafb4d4c5a": {
+            "format": "jpg",
+            "id": "b9c2241aea20acb9dbcbeacafb4d4c5a",
+            "name": "5e95ad03dbc14.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95ad03dbc14.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "7cee6edb50657ac6d9fdbb1bfbe52a00": {
+            "format": "jpg",
+            "id": "7cee6edb50657ac6d9fdbb1bfbe52a00",
+            "name": "5e95af79c5587.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95af79c5587.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "0f39d78ba5c4fe680f574381f9cb92bb": {
+            "format": "jpg",
+            "id": "0f39d78ba5c4fe680f574381f9cb92bb",
+            "name": "5e95af7c24daf.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95af7c24daf.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "25a34086d3a9cf434c0846ce74ba88b3": {
+            "format": "jpg",
+            "id": "25a34086d3a9cf434c0846ce74ba88b3",
+            "name": "5e95af8860a6f.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95af8860a6f.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "2d1d701078f7eecc33110113a26fb563": {
+            "format": "jpg",
+            "id": "2d1d701078f7eecc33110113a26fb563",
+            "name": "5e95afa1b1430.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95afa1b1430.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "48c173257039ff03c5ccd5b762662383": {
+            "format": "jpg",
+            "id": "48c173257039ff03c5ccd5b762662383",
+            "name": "5e95afa2ddb67.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95afa2ddb67.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "3e8d569b51659fde52a0bf47dc1f8e1d": {
+            "format": "jpg",
+            "id": "3e8d569b51659fde52a0bf47dc1f8e1d",
+            "name": "5e95afbbb8ddb.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95afbbb8ddb.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "1186fb3f3384990bc492caab715581a6": {
+            "format": "jpg",
+            "id": "1186fb3f3384990bc492caab715581a6",
+            "name": "5e95afbd89919.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95afbd89919.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "7d92aadc60392842ae2a19e3ba4785f5": {
+            "format": "jpg",
+            "id": "7d92aadc60392842ae2a19e3ba4785f5",
+            "name": "5e95afceb4ac3.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95afceb4ac3.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "ccb570969aa7a5bece7d64a5dd143457": {
+            "format": "jpg",
+            "id": "ccb570969aa7a5bece7d64a5dd143457",
+            "name": "5e95afd51be63.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95afd51be63.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "528a0b0fd27e013ddccbfe0eb5c913cd": {
+            "format": "jpg",
+            "id": "528a0b0fd27e013ddccbfe0eb5c913cd",
+            "name": "5e95afe117b24.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95afe117b24.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "97c9c63a695c21bd9345a5a9ae61d204": {
+            "format": "jpg",
+            "id": "97c9c63a695c21bd9345a5a9ae61d204",
+            "name": "5e95b008175f7.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b008175f7.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "df1f4072151542df7824aece7bf1cf13": {
+            "format": "jpg",
+            "id": "df1f4072151542df7824aece7bf1cf13",
+            "name": "5e95b020cae16.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b020cae16.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "404eba06ba5e4bf515df5bbccfbe0ce0": {
+            "format": "jpg",
+            "id": "404eba06ba5e4bf515df5bbccfbe0ce0",
+            "name": "5e95b04172d3f.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b04172d3f.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "19c7e91707fb41749f6abc2edb9d10b8": {
+            "format": "jpg",
+            "id": "19c7e91707fb41749f6abc2edb9d10b8",
+            "name": "5e95b046ceda9.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b046ceda9.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "594d1c94c388e12677e76b69dfbf00bd": {
+            "format": "jpg",
+            "id": "594d1c94c388e12677e76b69dfbf00bd",
+            "name": "5e95b052af733.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b052af733.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "987e82f8b25258c277ab3502672530dd": {
+            "format": "jpg",
+            "id": "987e82f8b25258c277ab3502672530dd",
+            "name": "5e95b056d5870.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b056d5870.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "376c0af1615fff55d28fae50f1577e0d": {
+            "format": "jpg",
+            "id": "376c0af1615fff55d28fae50f1577e0d",
+            "name": "5e95b0693d9f1.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b0693d9f1.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "a77670a583f18b50e73553b215e68562": {
+            "format": "jpg",
+            "id": "a77670a583f18b50e73553b215e68562",
+            "name": "5e95b0763baaf.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b0763baaf.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "7c1e476ef415415679946ad6b72a78f3": {
+            "format": "jpg",
+            "id": "7c1e476ef415415679946ad6b72a78f3",
+            "name": "5e95b09754a21.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b09754a21.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "960ef9d3bf375f83e888044e41b51951": {
+            "format": "jpg",
+            "id": "960ef9d3bf375f83e888044e41b51951",
+            "name": "5e95b0999cdb8.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b0999cdb8.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "4b4763c1e6e35bac58ec35e4ad1cea4f": {
+            "format": "jpg",
+            "id": "4b4763c1e6e35bac58ec35e4ad1cea4f",
+            "name": "5e95b10ea9ce8.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b10ea9ce8.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "0ab7a11ce1ae0d68d57fe6dcc9930ca8": {
+            "format": "jpg",
+            "id": "0ab7a11ce1ae0d68d57fe6dcc9930ca8",
+            "name": "5e95b1119cb5a.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b1119cb5a.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "df374d3fcf8a878b5b69f341e8dd8a7e": {
+            "format": "jpg",
+            "id": "df374d3fcf8a878b5b69f341e8dd8a7e",
+            "name": "5e95b1123a96d.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b1123a96d.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "e36a5ebb8e28ea28c82f2abbbf9abd1c": {
+            "format": "jpg",
+            "id": "e36a5ebb8e28ea28c82f2abbbf9abd1c",
+            "name": "5e95b112d0231.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b112d0231.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "5517777a202def32947d37c9f9fce102": {
+            "format": "jpg",
+            "id": "5517777a202def32947d37c9f9fce102",
+            "name": "5e95b116705e7.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b116705e7.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "4a7b3417c843664f4d9312980997021b": {
+            "format": "jpg",
+            "id": "4a7b3417c843664f4d9312980997021b",
+            "name": "5e95b118c0ac7.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b118c0ac7.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "a3faa38f4102e7f9e4ee9e94879ff320": {
+            "format": "jpg",
+            "id": "a3faa38f4102e7f9e4ee9e94879ff320",
+            "name": "5e95b13886214.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b13886214.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "16b1d43c2f6dc041fcf4a4cd65af985a": {
+            "format": "jpg",
+            "id": "16b1d43c2f6dc041fcf4a4cd65af985a",
+            "name": "5e95b13d44db2.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b13d44db2.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "dd0f226fdff0d8c0422fbb7424131069": {
+            "format": "jpg",
+            "id": "dd0f226fdff0d8c0422fbb7424131069",
+            "name": "5e95b149b933f.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b149b933f.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "f83eff961257a8ed53199b63cdc08202": {
+            "format": "jpg",
+            "id": "f83eff961257a8ed53199b63cdc08202",
+            "name": "5e95b17ea3f52.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b17ea3f52.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "92ada6488b70614d94abbb6031d84875": {
+            "format": "jpg",
+            "id": "92ada6488b70614d94abbb6031d84875",
+            "name": "5e95b1859bd92.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b1859bd92.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "3d9b2507635c6a1376352f149049c10c": {
+            "format": "jpg",
+            "id": "3d9b2507635c6a1376352f149049c10c",
+            "name": "5e95b1891e889.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b1891e889.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "a046ea0af9f3689c46646ed28d12a0a0": {
+            "format": "jpg",
+            "id": "a046ea0af9f3689c46646ed28d12a0a0",
+            "name": "5e95b189af9b9.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b189af9b9.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "11c77da8dbe97b9cbd7bf0c5db2f27f8": {
+            "format": "jpg",
+            "id": "11c77da8dbe97b9cbd7bf0c5db2f27f8",
+            "name": "5e95b224a28ff.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b224a28ff.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "d9616d3dc1c61bfdaac400149b482c4b": {
+            "format": "jpg",
+            "id": "d9616d3dc1c61bfdaac400149b482c4b",
+            "name": "5e95b228c6a7c.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b228c6a7c.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "15be0401a994bbf5f18eb085d97c8293": {
+            "format": "jpg",
+            "id": "15be0401a994bbf5f18eb085d97c8293",
+            "name": "5e95b22eb491f.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b22eb491f.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "e70b1e0e8fba1c31911c69cb9ae40fb7": {
+            "format": "jpg",
+            "id": "e70b1e0e8fba1c31911c69cb9ae40fb7",
+            "name": "5e95b235af64a.jpg",
+            "path": "file:C:/Github/Repositories/NotsCaptchaDataset/images/images/5e95b235af64a.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
             "type": 1,
             "predicted": true
         }
