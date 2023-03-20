@@ -1,0 +1,49 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "ae9fc2522dce62aea65b781a937adcd6",
+        "name": "5e95b2751555d.jpg",
+        "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95b2751555d.jpg",
+        "size": {
+            "width": 800,
+            "height": 200
+        },
+        "state": 2,
+        "type": 1,
+        "predicted": true
+    },
+    "regions": [
+        {
+            "id": "M3AxkSiSeS",
+            "type": "RECTANGLE",
+            "tags": [
+                "laptop"
+            ],
+            "boundingBox": {
+                "left": 0.19974708557128906,
+                "top": 0.8293688297271729,
+                "width": 800.4146099090576,
+                "height": 197.60562777519226
+            },
+            "points": [
+                {
+                    "x": 0.19974708557128906,
+                    "y": 0.8293688297271729
+                },
+                {
+                    "x": 800.6143569946289,
+                    "y": 0.8293688297271729
+                },
+                {
+                    "x": 800.6143569946289,
+                    "y": 198.43499660491943
+                },
+                {
+                    "x": 0.19974708557128906,
+                    "y": 198.43499660491943
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

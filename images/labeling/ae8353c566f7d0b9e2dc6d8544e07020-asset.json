@@ -1,0 +1,49 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "ae8353c566f7d0b9e2dc6d8544e07020",
+        "name": "5e95abf2047dc.jpg",
+        "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95abf2047dc.jpg",
+        "size": {
+            "width": 800,
+            "height": 200
+        },
+        "state": 2,
+        "type": 1,
+        "predicted": true
+    },
+    "regions": [
+        {
+            "id": "KPvd7n92G",
+            "type": "RECTANGLE",
+            "tags": [
+                "T"
+            ],
+            "boundingBox": {
+                "height": 82.1917808219178,
+                "width": 53.77229080932785,
+                "left": 82.3045267489712,
+                "top": 59.31506849315068
+            },
+            "points": [
+                {
+                    "x": 82.3045267489712,
+                    "y": 59.31506849315068
+                },
+                {
+                    "x": 136.07681755829904,
+                    "y": 59.31506849315068
+                },
+                {
+                    "x": 136.07681755829904,
+                    "y": 141.50684931506848
+                },
+                {
+                    "x": 82.3045267489712,
+                    "y": 141.50684931506848
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
