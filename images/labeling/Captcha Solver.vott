@@ -2,20 +2,22 @@
     "name": "Captcha Solver",
     "securityToken": "Captcha Solver Token",
     "sourceConnection": {
-        "name": "ImagesMapDesktop",
+        "name": "Capcha's",
+        "description": "test images",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNzU3YzBhYWQ4ZDBmZGNmNTgzMGVmM2IyNjNjODc2MjBhYjgzZjY2NmM1M2U3MDc5NTQ2MjNmMTEzOGJjYTAyMGRiYWYxNmEwZmM4NjBjOTE5ZjFlODI4MjA1ZDBlYTZiYmQ1Y2M4NWQyNjBlMDcyMGQ4ODJjM2MzZWEyODVkMmI2Njc1NjI1OWZjZjUwMjVjMTVjNThjNmFlNjE3Y2UzNSIsIml2IjoiNzAwZmJlNDcyYjYzN2MzOWJiMTRlNzE0M2JlYTYxZTc5ZDUzYmE3ODRiM2Y1OGNjIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMWYxYmIyNzBkNTc2OGY4YzIxOWQ3YjBlNDY4ZjRjZWM4YmU2NjZkZWU5OTdmNTMwZGVhNTNjN2M3NWZjYTBjYTM0ZjRhZWM5YTQxZmI5NTYzN2Q5ODkwNTlmODhiOTdjZTNhM2ZmOWQ3NTA2ZGQzODhkZDQxODZmYTBlNzcxOGUiLCJpdiI6IjVlNTIxYWRlYjFiMGViNGY5NzcyMDY3YTkyNWRmMjYxZDIxNjMyMWJiYThhNjQ2ZSJ9"
         },
-        "id": "vz3rkB3l3"
+        "id": "e8Crj7Ufy"
     },
     "targetConnection": {
-        "name": "LabelingMapDesktop",
+        "name": "Chaptcha Results",
+        "description": "Results",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiM2RjOWEyYzM0ODEyZGJhOGU0NzFjNWViMDQyMzE3OGVkY2QwZDNhYTA4ZDM0ZjliMzI3NGRlY2E0YzI3NWQ1MGI4MGRmOTVhMmI5Y2RhNDA4ZWIwNjFiYjA3NTk1NmRmOWNiMDhkNmQzM2I5NTA2ZDQzMjdlOTNhYzM4NGVlMWM1YTRkODMxYmM0MWZlNjBlZWQ4Njc5ZGQ5NGQyZTZhNCIsIml2IjoiNWUwY2IwNjczNzY1MTE3OTM0N2FlYjIxYWM3NWVmMjViZWViNzc3NDMxYzFmZGQ1In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMWMyMjkzMmZiZjQxOTRmOWQwZWU4N2JhZTAyYjJjMjY2OGIyMWU0OThlM2Q4YzFiOGM3YzI2MjgxMjZiYzg0Yjk3YWY5OGIzOGI1MDE0MDE5NTU2MzhkMjBiNzE1MWVkN2E1NzcwMmFkOGEwMWE4NjU3N2IzOTliMzY0ZGZkNzgzNTcxMTFmM2UxN2Y0YmVlOGVkZGE3NzI1MzllMTA1YyIsIml2IjoiMmQ1OGIyYzAyYjBmZDgwMjY5ZjcyYjIxMzk2Nzk1ZWYzZTc0NzlmNjVkZWNhNTZlIn0="
         },
-        "id": "EsQeusxHe"
+        "id": "QeV2Guvm6"
     },
     "videoSettings": {
         "frameExtractionRate": 15
@@ -183,11 +185,11 @@
     "exportFormat": {
         "providerType": "vottJson",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjQyZmE5NTdhZjkxNGZkNTlkNzRiODU2ZGJhNzZkN2M5ZDM2YWQ2YWUyNWYwZTRlNWY2YThkMWNlNmIwOGFmZDkyNWMzYWE3MzlmYThkMWUyNjQxZjExZjRjN2Y4NTY4IiwiaXYiOiI1ZDhlMzZiYjk4NTFlOTBkY2I5NTNlZGZiMDA1ODJlNjcwNTk1M2FjNDgyYWNjYzkifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZWI2YWY0NjkwZjdmZWE4MWJmMmIxNmQxZTM5MDQyNWRmOGY3ZmQyNTEwMmQxMTlhMWZiNzkzYzYzZGU1MmFmZmEyMDk5YjNhMjNiMmQ5ZmY2ZmYzODIwNzU0YmQ4MzNmIiwiaXYiOiJjYTcxOGNhOWMyNDRmYTdmMmM0MjY4NmVhYTI5NmMzMTRhZGU2OWQ3NzBlMjlmMjIifQ=="
         }
     },
     "version": "2.2.0",
-    "lastVisitedAssetId": "e70b1e0e8fba1c31911c69cb9ae40fb7",
+    "lastVisitedAssetId": "727dd3017d973221274f9fcefeb194c2",
     "assets": {
         "8018e310a20cb719be622a888754623b": {
             "format": "jpg",
@@ -428,7 +430,8 @@
                 "height": 200
             },
             "state": 2,
-            "type": 1
+            "type": 1,
+            "predicted": true
         },
         "2ad7d1f04f983b8d67772fb9af88dcbb": {
             "format": "jpg",
@@ -670,7 +673,7 @@
                 "width": 800,
                 "height": 200
             },
-            "state": 1,
+            "state": 2,
             "type": 1,
             "predicted": true
         },
@@ -2777,6 +2780,617 @@
                 "height": 200
             },
             "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "bd810c0664d335da997678fa777f9509": {
+            "format": "jpg",
+            "id": "bd810c0664d335da997678fa777f9509",
+            "name": "5e95a002484bb.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a002484bb.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "823312e182e1a44f6d240325fc3236c3": {
+            "format": "jpg",
+            "id": "823312e182e1a44f6d240325fc3236c3",
+            "name": "5e95a007196a9.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a007196a9.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "a2ffd0eb3bf9526418862ecdde7f7371": {
+            "format": "jpg",
+            "id": "a2ffd0eb3bf9526418862ecdde7f7371",
+            "name": "5e95a03241900.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a03241900.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b5cc37ad85ec97381aa1eb1797bc359b": {
+            "format": "jpg",
+            "id": "b5cc37ad85ec97381aa1eb1797bc359b",
+            "name": "5e95a0434b272.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a0434b272.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "1fe01be655b290e28d05bf0a38963ba1": {
+            "format": "jpg",
+            "id": "1fe01be655b290e28d05bf0a38963ba1",
+            "name": "5e95a0688d4ce.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a0688d4ce.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "d1612e33170edb9cb3b178562beec98a": {
+            "format": "jpg",
+            "id": "d1612e33170edb9cb3b178562beec98a",
+            "name": "5e95a12743efc.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a12743efc.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "8747c8e35864b42256114a0b5306f496": {
+            "format": "jpg",
+            "id": "8747c8e35864b42256114a0b5306f496",
+            "name": "5e95a193d6eba.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a193d6eba.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "06391e361171d897403e8adb31029afc": {
+            "format": "jpg",
+            "id": "06391e361171d897403e8adb31029afc",
+            "name": "5e95a198a90fc.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a198a90fc.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "e6071af2ff45febafd4977a186de423a": {
+            "format": "jpg",
+            "id": "e6071af2ff45febafd4977a186de423a",
+            "name": "5e95a24172c34.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a24172c34.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "e896dcba8375f2319932e88a188de25b": {
+            "format": "jpg",
+            "id": "e896dcba8375f2319932e88a188de25b",
+            "name": "5e95a24576c5e.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a24576c5e.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "1581e1bacae1faefc06e9b5bf9caf1f7": {
+            "format": "jpg",
+            "id": "1581e1bacae1faefc06e9b5bf9caf1f7",
+            "name": "5e95a24aa04cc.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a24aa04cc.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b6ebd243c101046a7da41b8eb0d35279": {
+            "format": "jpg",
+            "id": "b6ebd243c101046a7da41b8eb0d35279",
+            "name": "5e95a27249177.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a27249177.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "edd346758122c23b7786674c2167e39a": {
+            "format": "jpg",
+            "id": "edd346758122c23b7786674c2167e39a",
+            "name": "5e95a2764db4a.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a2764db4a.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "9490952c34917061a449c6660011460f": {
+            "format": "jpg",
+            "id": "9490952c34917061a449c6660011460f",
+            "name": "5e95a276daa72.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a276daa72.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "0960a8b0baabcaa861fc3e95fafa96e2": {
+            "format": "jpg",
+            "id": "0960a8b0baabcaa861fc3e95fafa96e2",
+            "name": "5e95a28943313.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a28943313.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "0bac07c8a46449fae1afb3b73151283c": {
+            "format": "jpg",
+            "id": "0bac07c8a46449fae1afb3b73151283c",
+            "name": "5e95a31343bf9.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a31343bf9.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "3ce35030966939ec211a4eaae1067a0c": {
+            "format": "jpg",
+            "id": "3ce35030966939ec211a4eaae1067a0c",
+            "name": "5e95a32041751.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a32041751.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "c04284aad18533429bfe2f593c3c6c2b": {
+            "format": "jpg",
+            "id": "c04284aad18533429bfe2f593c3c6c2b",
+            "name": "5e95a35733357.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a35733357.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "55abe06b5cb1449e882f49134e644329": {
+            "format": "jpg",
+            "id": "55abe06b5cb1449e882f49134e644329",
+            "name": "5e95a3847b589.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a3847b589.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "4f6b7f53ebc9f625976600bff131d21d": {
+            "format": "jpg",
+            "id": "4f6b7f53ebc9f625976600bff131d21d",
+            "name": "5e95a3d2e0708.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a3d2e0708.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "686878481c7a87d33412083ec49e1627": {
+            "format": "jpg",
+            "id": "686878481c7a87d33412083ec49e1627",
+            "name": "5e95a3f2d353d.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a3f2d353d.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "b7d77475361adad07ea754ec55cd9d9d": {
+            "format": "jpg",
+            "id": "b7d77475361adad07ea754ec55cd9d9d",
+            "name": "5e95a422582fb.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a422582fb.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "507e8d0afa86f604fa293a203b3f4f72": {
+            "format": "jpg",
+            "id": "507e8d0afa86f604fa293a203b3f4f72",
+            "name": "5e95a4679172c.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a4679172c.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "10425113c0d6d0fc7cc2aa5ccd8196ac": {
+            "format": "jpg",
+            "id": "10425113c0d6d0fc7cc2aa5ccd8196ac",
+            "name": "5e95a4855d44a.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a4855d44a.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "51b1f5a58ce8691757cd09d13e67069b": {
+            "format": "jpg",
+            "id": "51b1f5a58ce8691757cd09d13e67069b",
+            "name": "5e95a4a044e6c.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a4a044e6c.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "f9fb8ceb0a6468b4dfaab4a79d0dcf11": {
+            "format": "jpg",
+            "id": "f9fb8ceb0a6468b4dfaab4a79d0dcf11",
+            "name": "5e95a7cbd9b4e.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a7cbd9b4e.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "dc196efe09497ae915935c4bd84a14f8": {
+            "format": "jpg",
+            "id": "dc196efe09497ae915935c4bd84a14f8",
+            "name": "5e95a809c4431.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a809c4431.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "35443027dd97a497b914e5764b7e3607": {
+            "format": "jpg",
+            "id": "35443027dd97a497b914e5764b7e3607",
+            "name": "5e95a810ade94.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a810ade94.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "ec8baf4c15c8c3a6d04202405968db78": {
+            "format": "jpg",
+            "id": "ec8baf4c15c8c3a6d04202405968db78",
+            "name": "5e95a827dabc0.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a827dabc0.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "12efdb9722f30c67a22a81f74984848e": {
+            "format": "jpg",
+            "id": "12efdb9722f30c67a22a81f74984848e",
+            "name": "5e95a835809b8.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a835809b8.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "9eb5d0415728c54fc04ce0cfb136dd5b": {
+            "format": "jpg",
+            "id": "9eb5d0415728c54fc04ce0cfb136dd5b",
+            "name": "5e95a8374bd5b.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a8374bd5b.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "48f94423922e9b66c183349dc5fafbf7": {
+            "format": "jpg",
+            "id": "48f94423922e9b66c183349dc5fafbf7",
+            "name": "5e95a83d307aa.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a83d307aa.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "a159f52fcc4fd4836a3286e2043670b7": {
+            "format": "jpg",
+            "id": "a159f52fcc4fd4836a3286e2043670b7",
+            "name": "5e95a8500dfd4.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a8500dfd4.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "7c7332ed0b9a91cfd02cf961293de5f6": {
+            "format": "jpg",
+            "id": "7c7332ed0b9a91cfd02cf961293de5f6",
+            "name": "5e95a8560163a.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a8560163a.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "2c7d0690dff1dfc9c65fc974018d3dbd": {
+            "format": "jpg",
+            "id": "2c7d0690dff1dfc9c65fc974018d3dbd",
+            "name": "5e95a87e9c5f6.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a87e9c5f6.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "9af7bb4797f265038f3dc74b5830a2b3": {
+            "format": "jpg",
+            "id": "9af7bb4797f265038f3dc74b5830a2b3",
+            "name": "5e95a893c31eb.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a893c31eb.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "6cab9f42f2db409a0753f3935d9377c4": {
+            "format": "jpg",
+            "id": "6cab9f42f2db409a0753f3935d9377c4",
+            "name": "5e95a899a6d24.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a899a6d24.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "08b865f05846bd6bfcb96dfb2422594e": {
+            "format": "jpg",
+            "id": "08b865f05846bd6bfcb96dfb2422594e",
+            "name": "5e95a89a478d4.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a89a478d4.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "ab650317e4f96f6c03e70870320bcd0b": {
+            "format": "jpg",
+            "id": "ab650317e4f96f6c03e70870320bcd0b",
+            "name": "5e95a9011d2c4.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a9011d2c4.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "ff0dc1aef08ea067b59c4cd4f8ed6130": {
+            "format": "jpg",
+            "id": "ff0dc1aef08ea067b59c4cd4f8ed6130",
+            "name": "5e95a902d4c6b.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a902d4c6b.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "74066c3d3174cf36efdd0ccb16847bcd": {
+            "format": "jpg",
+            "id": "74066c3d3174cf36efdd0ccb16847bcd",
+            "name": "5e95a92344a6b.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a92344a6b.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "da942ee679530f745528235079ea0bff": {
+            "format": "jpg",
+            "id": "da942ee679530f745528235079ea0bff",
+            "name": "5e95a92471766.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a92471766.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "8920d25c02701f682d8bdec828e0f059": {
+            "format": "jpg",
+            "id": "8920d25c02701f682d8bdec828e0f059",
+            "name": "5e95a93382be8.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a93382be8.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "19ab0b4ba2ed80b4d624f23ff527ff21": {
+            "format": "jpg",
+            "id": "19ab0b4ba2ed80b4d624f23ff527ff21",
+            "name": "5e95a97b03cf1.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95a97b03cf1.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "28a4e6d1580676f5c918fbd6b371e4a0": {
+            "format": "jpg",
+            "id": "28a4e6d1580676f5c918fbd6b371e4a0",
+            "name": "5e95aa03361ce.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95aa03361ce.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "c53d837b659b21515b8210a17e67514f": {
+            "format": "jpg",
+            "id": "c53d837b659b21515b8210a17e67514f",
+            "name": "5e95aa0e600eb.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95aa0e600eb.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "727dd3017d973221274f9fcefeb194c2": {
+            "format": "jpg",
+            "id": "727dd3017d973221274f9fcefeb194c2",
+            "name": "5e95aa2cb58c9.jpg",
+            "path": "file:C:/source/NotsCaptchaDataset/images/images/5e95aa2cb58c9.jpg",
+            "size": {
+                "width": 800,
+                "height": 200
+            },
+            "state": 1,
             "type": 1,
             "predicted": true
         }
